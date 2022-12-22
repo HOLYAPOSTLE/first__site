@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar__container{
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    background-color: #11ffff;
+    align-items: center;
+    
+}
+
+.navbar__logo{
+    font: bold;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+    padding-right: 40px;
+    font-size: xx-large;
+    margin-right: 40px;
+    margin-left: 10px;
+    
+    
+}
+
+.navbar__logo-item{
+    text-decoration: none;
+    background: transparent;
+    background-image: linear-gradient(to top, gold 0, #00bbf1 80%);
+    font-size: xx-large;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    
+}
+
+.navbar__menu{
+    align-items: center;
+    
+}
+
+.navbar__items{
+    padding-right: 40px;
+    font-size: xx-large;
+    margin-right: 40px;
+    margin-left: 80vh;
+}
+
+.navbar__links{
+    align-items:center;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 40px;
+}
+.main{
+    align-items: center;
+    width: 100%;
+}
+.main__container-second{
+    display: flex;
+    
+}
+.guy1 {
+    display: flex;
+    width: 80vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.guy3 {
+    display: flex;
+    padding-right: 10px;
+}
+
+.firstbig{
+    width: 100%;
+}
+
+.main__content {
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+}
+
+div a {
+    margin-top: 35px;
+}
+
+.main__contact-us {
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    background-color: rgba(97, 249, 249, 0.534);
+    align-items: center;
+}
+
+form input{
+padding: 10px;
+color: gold;
+background-color: black;
+cursor: pointer;
+}
+
+.main__container-third img {
+width: 100%;
+}
+
+.main__form {
+height: 100vh;
+width: 100%;
+}
+
+.container{
+position: relative;
+width: 80%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 100px;
+
+}
+
+.contact-box{
+max-width: 850px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #fff;
+box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+border-radius: 15px;
+}
+
+.left{
+background: url("images/logo.jpeg") no-repeat center ;
+background-size: cover;
+height: 100%;
+border-radius: 15px;
+}
+
+.right{
+padding: 25px 40px;
+}
+
+h2{
+position: relative;
+padding: 0 0 10px;
+margin-bottom: 10px;
+}
+
+h2:after{
+content: '';
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+height: 4px;
+width: 50px;
+border-radius: 2px;
+background-color: #2ecc71;
+}
+
+.field{
+width: 100%;
+border: 2px solid rgba(0, 0, 0, 0);
+outline: none;
+background-color: rgb(250, 182, 182);
+padding: 0.5rem 1rem;
+font-size: 1.1rem;
+margin-bottom: 22px;
+transition: .3s;
+border-radius: 10px;
+color: black;
+}
+
+.field:hover{
+background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+min-height: 100px;
+}
+
+.btn{
+width: 70%;
+padding: 0.5rem 1rem;
+background-color: #2ecc71;
+color: #fff;
+font-size: 2rem;
+border: none;
+outline: none;
+cursor: pointer;
+transition: 0.3s;
+border-radius: 5px;
+}
+
+.btn:hover{
+background-color: #27ae60;
+transition: all 0.5s;
+}
+
+.field:focus{
+border: 2px solid rgba(30,85,250,0.47);
+background-color: #fff;
+}
+
+@media screen and (max-width: 470px)  {
+    
+.contact-box{
+grid-template-columns: 1fr;
+margin-top: 10rem;
+margin-bottom: 20vh;
+}
+.left{
+height: 200px;
+}
+
+.main__container-second {
+    display: block;
+    width: 80%;
+    }
+.main__container-third {
+        padding-top: 10rem ;
+    }
+
+    .main__container-second img {
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, gold 0, #00bbf1 80%);
+        
+    }
+    .guy1{
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .main__container-fourth{
+        background-image: linear-gradient(to top, gold 0, #00bbf1 80%);
+    }
+
+    .main__container-fourth img{
+        margin: 10px ;
+        width: 300px;
+        border-radius: 5px;
+        justify-content: center;
+        
+    }
+
+
+}
